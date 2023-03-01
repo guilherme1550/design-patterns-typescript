@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2019",
+        "lib": ["ESNext", "DOM"],
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "removeComments": true,
+        "noEmitOnError": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": ["./src"]
+}
